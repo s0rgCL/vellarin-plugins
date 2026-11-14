@@ -1,0 +1,18 @@
+{
+  "name": "vellarin",
+  "description": "Plugins by Vellarin AI: Vellarin Hub (your apps for your agents, with approvals).",
+  "owner": {
+    "name": "Vellarin AI",
+    "url": "https://vellarin.ai"
+  },
+  "plugins": [
+    {
+      "name": "vellarin-hub",
+      "source": "./plugins/vellarin-hub",
+      "description": "Your connected business apps with human approval, shared memory, a run log and evals: one MCP server, one sign-in.",
+      "version": "1.0.0",
+      "homepage": "https://hub.vellarin.ai",
+      "category": "productivity"
+    }
+  ]
+}

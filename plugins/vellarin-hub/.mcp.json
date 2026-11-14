@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vellarin": {
+      "type": "http",
+      "url": "https://hub.vellarin.ai/api/hub/mcp"
+    }
+  }
+}

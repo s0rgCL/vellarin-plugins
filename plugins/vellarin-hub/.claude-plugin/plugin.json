@@ -1,0 +1,22 @@
+{
+  "name": "vellarin-hub",
+  "version": "1.0.0",
+  "description": "Your connected business apps with human approval, shared memory, a run log and evals: one MCP server, one sign-in.",
+  "author": {
+    "name": "Vellarin AI",
+    "url": "https://vellarin.ai"
+  },
+  "homepage": "https://hub.vellarin.ai",
+  "repository": "https://github.com/s0rgCL/vellarin-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "apps",
+    "gmail",
+    "slack",
+    "hubspot",
+    "approvals",
+    "memory",
+    "agents"
+  ]
+}
