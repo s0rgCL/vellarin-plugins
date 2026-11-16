@@ -59,6 +59,14 @@ enforced on the server; this skill tells you how to behave so the user gets good
 
 ## When something is missing
 
+- **The user asks for something no connected app can do.** Call `vellarin_connections`: it lists what the workspace has connected and
+  what it can connect (everyday apps, image and video providers, servers and databases) and the address to do it,
+  https://hub.vellarin.ai/connections. Tell the user which one fits and why, in a sentence; do not list everything.
+- **The app is in none of those lists.** Say so, and offer to ask Vellarin for it: `vellarin_request_app { app, why? }`. It only
+  records the request; promise no date.
+- **More image and video providers** (fal, Higgsfield, Recraft, Magnific), when the owner connected one: its own tools appear as
+  `<provider>__<tool>`. Every generation there waits for the owner's approval, because Hub cannot estimate its cost.
+
 - No app tools at all: the workspace has no app connected. Point the user to https://agents.vellarin.ai/agents/apps.
 - 401: the connection was revoked or the sign-in expired. Ask the user to reconnect (claude.ai: the connector's settings; Claude Code:
   `/mcp` → reconnect; a pasted key: a new key on https://agents.vellarin.ai/agents/developers).
