@@ -9,8 +9,8 @@
     {
       "name": "vellarin-hub",
       "source": "./plugins/vellarin-hub",
-      "description": "Your connected business apps with human approval, shared memory, a run log and evals, plus Media Studio (brand videos with budget and approval): one MCP server, one sign-in.",
-      "version": "1.1.0",
+      "description": "Your connected business apps with human approval, shared memory, a run log and evals, plus Media Studio (images and video with your own generation account, under your limits): one MCP server, one sign-in.",
+      "version": "1.2.0",
       "homepage": "https://hub.vellarin.ai",
       "category": "productivity"
     }
