@@ -3,7 +3,6 @@
 Jira exposes 166 actions. A sample of real action names (use `find_app_actions` for the rest):
 
 **Reads (run at once)**
-- Analyse Jira Expression
 - Bulk Fetch Issue Changelogs
 - Check User Permissions
 - Evaluate Jira Expression
@@ -11,6 +10,7 @@ Jira exposes 166 actions. A sample of real action names (use `find_app_actions` 
 - Find Users (Deprecated)
 - Find Users 2
 - Find Users For Picker
+- Find Users With Permissions
 
 **Writes (wait for the owner's approval, then run once)**
 - Add Attachment
@@ -20,6 +20,6 @@ Jira exposes 166 actions. A sample of real action names (use `find_app_actions` 
 - Add User to Group
 - Add Watcher to Issue
 - Add Worklog
-- Assign Custom Field Context Projects
+- Analyse Jira Expression
 
 Page: https://hub.vellarin.ai/apps/jira

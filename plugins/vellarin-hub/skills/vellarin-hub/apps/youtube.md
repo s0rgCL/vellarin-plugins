@@ -1,6 +1,6 @@
 # YouTube through Vellarin Hub
 
-YouTube exposes 66 actions. A sample of real action names (use `find_app_actions` for the rest):
+YouTube exposes 67 actions. A sample of real action names (use `find_app_actions` for the rest):
 
 **Reads (run at once)**
 - Get Channel Activities

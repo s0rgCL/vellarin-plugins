@@ -2,7 +2,7 @@
 
 ## vellarin-hub
 
-Your connected business apps (Gmail, Slack, HubSpot, Google Sheets, QuickBooks and 31+ more) for Claude Code, with
+Your connected apps and official servers (GitHub, Vercel, Supabase, Linear, Sentry, Gmail, Slack; 100+ in all) for Claude Code, with
 human approval before anything is sent or changed, plus shared memory, a run log and eval results. One MCP server, one sign-in.
 
 ```bash
